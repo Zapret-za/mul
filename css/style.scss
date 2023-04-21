@@ -451,11 +451,11 @@ a{
                 padding: 40px 16px;
             }
             .modal-body__top{
-                margin: 0 0 60px;
+                margin: 0 0 10px;
                 display: flex;
                 justify-content: space-between;
                 @media(max-width:768px){
-                    margin: 0 0 30px;
+                    margin: 0 0 15px;
                 }
                 .modal-body__h3{
                     margin-top: 37px;
@@ -488,31 +488,11 @@ a{
                         display: block;
                     }
                     .content-input{
-                        .invalid { 
+                        .invilid { 
                             border-color: #BA1A1A; 
                             color: #BA1A1A;
                         }
-                        #error1 { 
-                            color: #BA1A1A;
-                            font-size: 12px;
-                        }
-                        #error2 { 
-                            color: #BA1A1A;
-                            font-size: 12px;
-                        }
-                        #error3 { 
-                            color: #BA1A1A;
-                            font-size: 12px;
-                        }
-                        #error4 { 
-                            color: #BA1A1A;
-                            font-size: 12px;
-                        }
-                        #error5 { 
-                            color: #BA1A1A;
-                            font-size: 12px;
-                        }
-                        #error6 { 
+                        .error-text { 
                             color: #BA1A1A;
                             font-size: 12px;
                         }
@@ -805,7 +785,6 @@ a{
             }
         }
     }
-
 }
 
 .technology{
