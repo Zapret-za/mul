@@ -84,16 +84,34 @@
             </div>
             <form class="my-form" action="#">
                 <div class="input-row">
-                    <input type="text" name="first" placeholder="First Name">
-                    <input type="text" name="last" placeholder="Last Name">
+                    <div class="content-input">
+                        <input type="text" name="first" id="first" placeholder="First Name">
+                        <div id="error1"></div>
+                    </div>
+                    <div class="content-input">
+                        <input type="text" name="last" id="last" placeholder="Last Name">
+                        <div id="error2"></div>
+                    </div>
                 </div>
                 <div class="input-row">
-                    <input type="text" name="pos" placeholder="Position">
-                    <input type="text" name="company" placeholder="Company">
+                    <div class="content-input">
+                        <input type="text" name="pos" id="pos" placeholder="Position">
+                        <div id="error3"></div>
+                    </div>
+                    <div class="content-input">
+                        <input type="text" name="company" id="company" placeholder="Company">
+                        <div id="error4"></div>
+                    </div>
                 </div>
                 <div class="input-row">
-                    <input type="tel" name="tel" placeholder="Phone">
-                    <input type="email" name="email" placeholder="Email">
+                    <div class="content-input">
+                        <input type="tel" name="tel" id="phone" placeholder="Phone">
+                        <div id="error5"></div>
+                    </div>
+                    <div class="content-input">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <div id="error6"></div>
+                    </div>
                 </div>
                 <div class="input-column">
                     <div class="textarea_col">
@@ -896,5 +914,6 @@
 <script src="js/accmore.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/error.js"></script>
 </body>
 </html>
