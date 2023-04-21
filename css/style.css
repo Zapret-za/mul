@@ -544,31 +544,11 @@ a {
     display: block;
   }
 }
-.modal .modal-content .modal-body .my-form .input-row .content-input .invalid {
+.modal .modal-content .modal-body .my-form .input-row .content-input .invilid {
   border-color: #BA1A1A;
   color: #BA1A1A;
 }
-.modal .modal-content .modal-body .my-form .input-row .content-input #error1 {
-  color: #BA1A1A;
-  font-size: 12px;
-}
-.modal .modal-content .modal-body .my-form .input-row .content-input #error2 {
-  color: #BA1A1A;
-  font-size: 12px;
-}
-.modal .modal-content .modal-body .my-form .input-row .content-input #error3 {
-  color: #BA1A1A;
-  font-size: 12px;
-}
-.modal .modal-content .modal-body .my-form .input-row .content-input #error4 {
-  color: #BA1A1A;
-  font-size: 12px;
-}
-.modal .modal-content .modal-body .my-form .input-row .content-input #error5 {
-  color: #BA1A1A;
-  font-size: 12px;
-}
-.modal .modal-content .modal-body .my-form .input-row .content-input #error6 {
+.modal .modal-content .modal-body .my-form .input-row .content-input .error-text {
   color: #BA1A1A;
   font-size: 12px;
 }
