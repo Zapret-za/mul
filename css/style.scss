@@ -487,13 +487,43 @@ a{
                     @media(max-width:768px){
                         display: block;
                     }
+                    .content-input{
+                        .invalid { 
+                            border-color: #BA1A1A; 
+                            color: #BA1A1A;
+                        }
+                        #error1 { 
+                            color: #BA1A1A;
+                            font-size: 12px;
+                        }
+                        #error2 { 
+                            color: #BA1A1A;
+                            font-size: 12px;
+                        }
+                        #error3 { 
+                            color: #BA1A1A;
+                            font-size: 12px;
+                        }
+                        #error4 { 
+                            color: #BA1A1A;
+                            font-size: 12px;
+                        }
+                        #error5 { 
+                            color: #BA1A1A;
+                            font-size: 12px;
+                        }
+                        #error6 { 
+                            color: #BA1A1A;
+                            font-size: 12px;
+                        }
+                    }
                 }
                 .input-column input{
                     display: block;
                 }
                 input[name=first]{
                     margin-right: 24px;
-                    margin-bottom: 50px;
+                    margin-top: 50px;
                     padding-bottom: 4px;
                     width: 304px;
                     outline: 0;
@@ -503,7 +533,7 @@ a{
                     line-height: 24px;
                     color: #000000;
                     @media(max-width:768px){
-                        margin-bottom: 15px;
+                        margin-top: 15px;
                         display: block;
                         width: 100%;
                     }
@@ -529,7 +559,7 @@ a{
                     }
                 }
                 input[name=last]{
-                    margin-bottom: 50px;
+                    margin-top: 50px;
                     padding-bottom: 4px;
                     width: 304px;
                     outline: 0;
@@ -539,7 +569,7 @@ a{
                     line-height: 24px;
                     color: #000000;
                     @media(max-width:768px){
-                        margin-bottom: 15px;
+                        margin-top: 15px;
                         display: block;
                         width: 100%;
                     }
@@ -566,7 +596,7 @@ a{
                 }
                 input[name=pos]{
                     margin-right: 24px;
-                    margin-bottom: 50px;
+                    margin-top: 50px;
                     padding-bottom: 4px;
                     width: 304px;
                     outline: 0;
@@ -576,7 +606,7 @@ a{
                     line-height: 24px;
                     color: #000000;
                     @media(max-width:768px){
-                        margin-bottom: 15px;
+                        margin-top: 15px;
                         display: block;
                         width: 100%;
                     }
@@ -602,7 +632,7 @@ a{
                     }
                 }
                 input[name=company]{
-                    margin-bottom: 50px;
+                    margin-top: 50px;
                     padding-bottom: 4px;
                     width: 304px;
                     outline: 0;
@@ -612,7 +642,7 @@ a{
                     line-height: 24px;
                     color: #000000;
                     @media(max-width:768px){
-                        margin-bottom: 15px;
+                        margin-top: 15px;
                         display: block;
                         width: 100%;
                     }
@@ -639,7 +669,7 @@ a{
                 }
                 input[name=tel]{
                     margin-right: 24px;
-                    margin-bottom: 50px;
+                    margin-top: 50px;
                     padding-bottom: 4px;
                     width: 304px;
                     outline: 0;
@@ -649,7 +679,7 @@ a{
                     line-height: 24px;
                     color: #000000;
                     @media(max-width:768px){
-                        margin-bottom: 15px;
+                        margin-top: 15px;
                         display: block;
                         width: 100%;
                     }
@@ -675,7 +705,7 @@ a{
                     }
                 }
                 input[name=email]{
-                    margin-bottom: 50px;
+                    margin-top: 50px;
                     padding-bottom: 4px;
                     width: 304px;
                     outline: 0;
@@ -685,7 +715,7 @@ a{
                     line-height: 24px;
                     color: #000000;
                     @media(max-width:768px){
-                        margin-bottom: 15px;
+                        margin-top: 15px;
                         display: block;
                         width: 100%;
                     }
@@ -712,6 +742,10 @@ a{
                 }
                 .textarea_col{
                     display: block;
+                    margin-top: 50px;
+                    @media(max-width:768px){
+                        margin-top: 15px;
+                    }
                     .p1{
                         font-family: 'e-Ukraine Light';
                         font-size: 16px;
@@ -766,7 +800,7 @@ a{
                     @media(max-width:768px){
                         margin-top: 30px;
                     }
-
+            
                 }
             }
         }
