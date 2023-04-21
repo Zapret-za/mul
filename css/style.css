@@ -498,13 +498,13 @@ a {
   }
 }
 .modal .modal-content .modal-body .modal-body__top {
-  margin: 0 0 60px;
+  margin: 0 0 10px;
   display: flex;
   justify-content: space-between;
 }
 @media (max-width: 768px) {
   .modal .modal-content .modal-body .modal-body__top {
-    margin: 0 0 30px;
+    margin: 0 0 15px;
   }
 }
 .modal .modal-content .modal-body .modal-body__top .modal-body__h3 {
@@ -544,12 +544,40 @@ a {
     display: block;
   }
 }
+.modal .modal-content .modal-body .my-form .input-row .content-input .invalid {
+  border-color: #BA1A1A;
+  color: #BA1A1A;
+}
+.modal .modal-content .modal-body .my-form .input-row .content-input #error1 {
+  color: #BA1A1A;
+  font-size: 12px;
+}
+.modal .modal-content .modal-body .my-form .input-row .content-input #error2 {
+  color: #BA1A1A;
+  font-size: 12px;
+}
+.modal .modal-content .modal-body .my-form .input-row .content-input #error3 {
+  color: #BA1A1A;
+  font-size: 12px;
+}
+.modal .modal-content .modal-body .my-form .input-row .content-input #error4 {
+  color: #BA1A1A;
+  font-size: 12px;
+}
+.modal .modal-content .modal-body .my-form .input-row .content-input #error5 {
+  color: #BA1A1A;
+  font-size: 12px;
+}
+.modal .modal-content .modal-body .my-form .input-row .content-input #error6 {
+  color: #BA1A1A;
+  font-size: 12px;
+}
 .modal .modal-content .modal-body .my-form .input-column input {
   display: block;
 }
 .modal .modal-content .modal-body .my-form input[name=first] {
   margin-right: 24px;
-  margin-bottom: 50px;
+  margin-top: 50px;
   padding-bottom: 4px;
   width: 304px;
   outline: 0;
@@ -561,7 +589,7 @@ a {
 }
 @media (max-width: 768px) {
   .modal .modal-content .modal-body .my-form input[name=first] {
-    margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
     width: 100%;
   }
@@ -601,7 +629,7 @@ a {
   }
 }
 .modal .modal-content .modal-body .my-form input[name=last] {
-  margin-bottom: 50px;
+  margin-top: 50px;
   padding-bottom: 4px;
   width: 304px;
   outline: 0;
@@ -613,7 +641,7 @@ a {
 }
 @media (max-width: 768px) {
   .modal .modal-content .modal-body .my-form input[name=last] {
-    margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
     width: 100%;
   }
@@ -654,7 +682,7 @@ a {
 }
 .modal .modal-content .modal-body .my-form input[name=pos] {
   margin-right: 24px;
-  margin-bottom: 50px;
+  margin-top: 50px;
   padding-bottom: 4px;
   width: 304px;
   outline: 0;
@@ -666,7 +694,7 @@ a {
 }
 @media (max-width: 768px) {
   .modal .modal-content .modal-body .my-form input[name=pos] {
-    margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
     width: 100%;
   }
@@ -706,7 +734,7 @@ a {
   }
 }
 .modal .modal-content .modal-body .my-form input[name=company] {
-  margin-bottom: 50px;
+  margin-top: 50px;
   padding-bottom: 4px;
   width: 304px;
   outline: 0;
@@ -718,7 +746,7 @@ a {
 }
 @media (max-width: 768px) {
   .modal .modal-content .modal-body .my-form input[name=company] {
-    margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
     width: 100%;
   }
@@ -759,7 +787,7 @@ a {
 }
 .modal .modal-content .modal-body .my-form input[name=tel] {
   margin-right: 24px;
-  margin-bottom: 50px;
+  margin-top: 50px;
   padding-bottom: 4px;
   width: 304px;
   outline: 0;
@@ -771,7 +799,7 @@ a {
 }
 @media (max-width: 768px) {
   .modal .modal-content .modal-body .my-form input[name=tel] {
-    margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
     width: 100%;
   }
@@ -811,7 +839,7 @@ a {
   }
 }
 .modal .modal-content .modal-body .my-form input[name=email] {
-  margin-bottom: 50px;
+  margin-top: 50px;
   padding-bottom: 4px;
   width: 304px;
   outline: 0;
@@ -823,7 +851,7 @@ a {
 }
 @media (max-width: 768px) {
   .modal .modal-content .modal-body .my-form input[name=email] {
-    margin-bottom: 15px;
+    margin-top: 15px;
     display: block;
     width: 100%;
   }
@@ -864,6 +892,12 @@ a {
 }
 .modal .modal-content .modal-body .my-form .textarea_col {
   display: block;
+  margin-top: 50px;
+}
+@media (max-width: 768px) {
+  .modal .modal-content .modal-body .my-form .textarea_col {
+    margin-top: 15px;
+  }
 }
 .modal .modal-content .modal-body .my-form .textarea_col .p1 {
   font-family: "e-Ukraine Light";
