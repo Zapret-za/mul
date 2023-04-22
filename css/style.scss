@@ -1170,6 +1170,9 @@ a{
                         background: linear-gradient(272deg, #5B5AFF -0.99%, #04C65D 94.64%);
                         border-radius: 50%;
                         border: 6px solid #FFFFFF;
+                        @media(max-width: 768px){
+                            top: 32px;
+                        }
                     }
                     .content {
                         padding: 24px 46px 24px 24px;
@@ -1273,6 +1276,7 @@ a{
                         border-color: transparent transparent transparent white;
                         @media(max-width: 768px){
                             transform: rotate(180deg);
+                            top: 30px;
                         }
                     }
                     &::after{
@@ -1299,6 +1303,7 @@ a{
                         border-color: transparent white transparent transparent;
                         @media(max-width:768px){
                             left: 60px;
+                            top: 30px;
                         }
                     }
                     &::after {
@@ -1542,7 +1547,7 @@ a{
                     margin: 50px 0 50px -3px;
                     @media(max-width: 768px){
                         left: 31px;
-                        margin: 70px 0 50px -3px;
+                        margin: 62px 0 36px -3px;
                     }
                 }
                 .timwline__h3{
@@ -1585,6 +1590,9 @@ a{
                         background: linear-gradient(272deg, #5B5AFF -0.99%, #04C65D 94.64%);
                         border-radius: 50%;
                         border: 6px solid #FFFFFF;
+                        @media(max-width:768px){
+                            top: 33px;
+                        }
                     }
                     .content {
                         padding: 24px 46px 24px 24px;
@@ -1689,6 +1697,7 @@ a{
                         border-color: transparent transparent transparent white;
                         @media(max-width: 768px){
                             transform: rotate(180deg);
+                            top: 30px;
                         }
                     }
                     &::after{
@@ -1714,6 +1723,7 @@ a{
                         border-width: 14px 18px 14px 0;
                         border-color: transparent white transparent transparent;
                         @media(max-width:768px){
+                            top: 30px;
                             left: 60px;
                         }
                     }
@@ -2029,17 +2039,21 @@ a{
                 .info__line2{
                     display: none;
                     @media(max-width:768px){
-                        margin-top: 30px;
+                        margin-top: 10px;
                         display: block;
                     }
                 }
                 .info__name{
                     p{
-                        padding-top: 20px;
+                        padding-top: 30px;
                         font-size: 24px;
                         line-height: 32px;
                         color: #000000;
                         font-family: 'e-Ukraine Medium';
+                        @media(max-width:768px){
+                            padding-top: 10px;
+                        }
+
                         &::before{
                             content: '';
                             width: 195px;
