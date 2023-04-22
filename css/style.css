@@ -1385,6 +1385,11 @@ a {
   border-radius: 50%;
   border: 6px solid #FFFFFF;
 }
+@media (max-width: 768px) {
+  .how .how__body .how__body-timelines .timeline-1 .container-tim::after {
+    top: 32px;
+  }
+}
 .how .how__body .how__body-timelines .timeline-1 .container-tim .content {
   padding: 24px 46px 24px 24px;
   background-color: #FFFFFF;
@@ -1511,6 +1516,7 @@ a {
 @media (max-width: 768px) {
   .how .how__body .how__body-timelines .timeline-1 .left::before {
     transform: rotate(180deg);
+    top: 30px;
   }
 }
 @media (max-width: 768px) {
@@ -1541,6 +1547,7 @@ a {
 @media (max-width: 768px) {
   .how .how__body .how__body-timelines .timeline-1 .right::before {
     left: 60px;
+    top: 30px;
   }
 }
 .how .how__body .how__body-timelines .timeline-1 .right::after {
@@ -1841,7 +1848,7 @@ a {
 @media (max-width: 768px) {
   .how .how__body .how__body-timelines .timeline-3::after {
     left: 31px;
-    margin: 70px 0 50px -3px;
+    margin: 62px 0 36px -3px;
   }
 }
 .how .how__body .how__body-timelines .timeline-3 .timwline__h3 {
@@ -1889,6 +1896,11 @@ a {
   background: linear-gradient(272deg, #5B5AFF -0.99%, #04C65D 94.64%);
   border-radius: 50%;
   border: 6px solid #FFFFFF;
+}
+@media (max-width: 768px) {
+  .how .how__body .how__body-timelines .timeline-3 .container-tim::after {
+    top: 33px;
+  }
 }
 .how .how__body .how__body-timelines .timeline-3 .container-tim .content {
   padding: 24px 46px 24px 24px;
@@ -2016,6 +2028,7 @@ a {
 @media (max-width: 768px) {
   .how .how__body .how__body-timelines .timeline-3 .left::before {
     transform: rotate(180deg);
+    top: 30px;
   }
 }
 @media (max-width: 768px) {
@@ -2045,6 +2058,7 @@ a {
 }
 @media (max-width: 768px) {
   .how .how__body .how__body-timelines .timeline-3 .right::before {
+    top: 30px;
     left: 60px;
   }
 }
@@ -2405,16 +2419,21 @@ a {
 }
 @media (max-width: 768px) {
   .cases .cases__swiper .swiper-slide-1 .cases__swiper-info .info__line2 {
-    margin-top: 30px;
+    margin-top: 10px;
     display: block;
   }
 }
 .cases .cases__swiper .swiper-slide-1 .cases__swiper-info .info__name p {
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 24px;
   line-height: 32px;
   color: #000000;
   font-family: "e-Ukraine Medium";
+}
+@media (max-width: 768px) {
+  .cases .cases__swiper .swiper-slide-1 .cases__swiper-info .info__name p {
+    padding-top: 10px;
+  }
 }
 .cases .cases__swiper .swiper-slide-1 .cases__swiper-info .info__name p::before {
   content: "";
