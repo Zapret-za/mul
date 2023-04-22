@@ -1276,26 +1276,9 @@ a {
 .choose .container .choose__body .choose__body-cards .choose__body-card .choose__body-card__element .one {
   position: absolute;
   top: 10px;
-  left: 40%;
-  z-index: 2;
-}
-@media (max-width: 768px) {
-  .choose .container .choose__body .choose__body-cards .choose__body-card .choose__body-card__element .one {
-    top: 10px;
-    left: 38%;
-  }
-}
-.choose .container .choose__body .choose__body-cards .choose__body-card .choose__body-card__element .two {
-  position: absolute;
-  top: 10px;
-  left: 26%;
-  z-index: 2;
-}
-@media (max-width: 768px) {
-  .choose .container .choose__body .choose__body-cards .choose__body-card .choose__body-card__element .two {
-    top: 10px;
-    left: 27%;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .choose .container .choose__body .choose__body-cards .choose__body-card .choose__body-card__p p {
   padding-left: 16px;
@@ -2844,13 +2827,13 @@ a {
 .third .third__body .third__body-cards .third__body-card .third__body-card__element .one {
   position: absolute;
   top: 10px;
-  left: 40%;
-  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .third .third__body .third__body-cards .third__body-card .third__body-card__element .one {
     top: 5px;
-    left: 35%;
   }
 }
 .third .third__body .third__body-cards .third__body-card .third__body-card__p p {
@@ -3800,13 +3783,13 @@ a {
 .ahome .ahome__body .ahome__body-cards .ahome__body-card .ahome__body-card__element .one {
   position: absolute;
   top: 10px;
-  left: 40%;
-  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .ahome .ahome__body .ahome__body-cards .ahome__body-card .ahome__body-card__element .one {
     top: 5px;
-    left: 35%;
   }
 }
 .ahome .ahome__body .ahome__body-cards .ahome__body-card .ahome__body-card__p p {
