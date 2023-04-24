@@ -1901,12 +1901,14 @@ a{
     }
     .cases__swiper{
         .swiper-slide-1{
+            width: 100%;
             .cases__swiper-img{
                 margin-right: 70px;
                 float: left;
                 width: 40%;
                 position: relative;
                 @media(max-width:992px){
+                    margin-bottom: 30px;
                     margin-right: 0px;
                     float: none;
                     width: 50%;
@@ -1914,118 +1916,66 @@ a{
                 @media(max-width:560px){
                     width: 100%;
                 }
-                .swiper {
+                .slider-for{
+                    margin-bottom: 60px;
                     width: 100%;
-                    height: 50%;
-                    .swiper-slide{
+                    height: 316px;
+                    @media(max-width:992px){
+                        height: auto;
+                        margin-bottom: 30px;
+                    }
+                    @media(max-width:768px){
+                        margin-bottom: 16px;
+                    }
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    
+                }
+                .slider-nav{
+                    margin: 0 auto; 
+                    width: 80%;   
+                    height: auto;
+                    .video-carousel--thumbnail{
+                        padding: 0 8px;
+                        width: 90px;
                         img{
-                            display: block;
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                        }
-                    }
-                }
-                .swiper {
-                    width: 100%;
-                    height: 200px;
-                    .swiper-button-next::after{
-                        content: '';
-                    }
-                    .swiper-button-prev::after{
-                        content: '';
-                    }
-                }
-                .mySwiper3 {
-                    height: 80%;
-                    width: 100%;
-                    .swiper-slide {
-                        width: 384px;
-                        height: 316px;
-                        @media(max-width:992px){
-                            height: auto;
-                        }
-                        img {
                             width: 100%;
                             height: auto;
                         }
                     }
                 }
-                .mySwiper4 {
-                    height: 20%;
-                    width: 78%;
-                    box-sizing: border-box;
-                    padding: 23px 0;
-                    .swiper-slide {
-                        width: 25%;
-                        height: 100%;
-                        img {
-                            display: block;
-                            max-width: 90px;
-                            max-height: 72px;
-                            object-fit: cover;
-                        }
-                    }
-                }
-                .mySwiper5 {
-                    height: 80%;
-                    width: 100%;
-                    .swiper-slide {
-                        width: 384px;
-                        height: 316px;
-                        @media(max-width:992px){
-                            height: auto;
-                        }
-                        img {
-                            width: 100%;
-                            height: auto;
-                        }
-                    }
-                }
-                .mySwiper6 {
-                    height: 20%;
-                    width: 78%;
-                    box-sizing: border-box;
-                    padding: 23px 0;
-                    .swiper-slide {
-                        width: 25%;
-                        height: 100%;
-                        img {
-                            display: block;
-                            max-width: 90px;
-                            max-height: 72px;
-                            object-fit: cover;
-                        }
-                    }
-                }
-                .swiper-butto-next{
+                .slick-prev{
                     position: absolute;
-                    right: 0;
-                    bottom: 46px;
-                    cursor: pointer;
-                    img{
-                        width: 24px;
-                        @media(max-width:768px){
-                            width: 20px;
-                        }
-                    }
-                    @media(max-width:768px){
-                        bottom: 40px;
-                    }
-                }
-                .swiper-butto-prev{
-                    position: absolute;
+                    bottom: 26px;
                     left: 0;
-                    bottom: 46px;
+                    border: 0;
+                    background-color: transparent;
                     cursor: pointer;
                     img{
-                        width: 24px;
-                        @media(max-width:768px){
-                            width: 20px;
+                        width: 22px;
+                        height: 22px;
+                        @media(max-width: 768px){
+                            width: 18px;
+                            height: 18px;
                         }
                     }
-                    @media(max-width:768px){
-                        bottom: 40px;
+                }
+                .slick-next{
+                    position: absolute;
+                    bottom: 26px;
+                    right: 0;
+                    border: 0;
+                    background-color: transparent;
+                    cursor: pointer;
+                    img{
+                        width: 22px;
+                        height: 22px;
+                        @media(max-width: 768px){
+                            width: 18px;
+                            height: 18px;
+                        }
                     }
                 }
             }
