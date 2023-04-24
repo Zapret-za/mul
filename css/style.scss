@@ -1961,6 +1961,15 @@ a{
                             height: 18px;
                         }
                     }
+                    @media(max-width: 768px){
+                        bottom: 6%;
+                    }
+                    @media(max-width: 560px){
+                        bottom: 5%;
+                    }
+                    @media(max-width: 40px){
+                        bottom: 3%;
+                    }
                 }
                 .slick-next{
                     position: absolute;
@@ -1976,6 +1985,15 @@ a{
                             width: 18px;
                             height: 18px;
                         }
+                    }
+                    @media(max-width: 768px){
+                        bottom: 6%;
+                    }
+                    @media(max-width: 560px){
+                        bottom: 5%;
+                    }
+                    @media(max-width: 40px){
+                        bottom: 3%;
                     }
                 }
             }
