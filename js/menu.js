@@ -4,11 +4,19 @@ var menu = document.querySelector('.menu');
 var logo = document.querySelector('.logo__mobmenu');
 
 burger.addEventListener('click', function(event) {
-burger.classList.toggle('active');
-menu.classList.toggle('active');
-logo.classList.toggle('active');
-document.documentElement.classList.toggle('lock');
+if (!burger.classList.contains('active')) {
+burger.classList.add('active');
+menu.classList.add('active');
+logo.classList.add('active');
+document.documentElement.classList.add('lock');
 closeButton.classList.add('active');
+} else {
+burger.classList.remove('active');
+menu.classList.remove('active');
+logo.classList.remove('active');
+document.documentElement.classList.remove('lock');
+closeButton.classList.remove('active');
+}
 });
 
 closeButton.addEventListener('click', function(event) {
