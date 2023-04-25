@@ -85,6 +85,30 @@ a{
     max-width: 1128px;
 }
 
+.breadcrums{
+    ul{
+        display: flex;
+        li{
+            margin-right: 10px;
+            list-style: none;
+            span{
+                width: 2px;
+                height: 16px;
+                background-color: #000000;
+                opacity: 0.5;
+            }
+            a{
+                color: #000000;
+                opacity: 0.5;
+                font-size: 12px;
+                @media(max-width:992px){
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -2247,29 +2271,6 @@ a{
         @media(max-width:768px){
             padding: 18px 0 32px;
         }
-        .first__body-breadcrums{
-            ul{
-                display: flex;
-                li{
-                    margin-right: 10px;
-                    list-style: none;
-                    span{
-                        width: 2px;
-                        height: 16px;
-                        background-color: #000000;
-                        opacity: 0.5;
-                    }
-                    a{
-                        color: #000000;
-                        opacity: 0.5;
-                        font-size: 12px;
-                        @media(max-width:992px){
-                            font-size: 10px;
-                        }
-                    }
-                }
-            }
-        }
         .first__body-h1{
             padding-top: 18px;
             font-weight: 400;
@@ -2735,29 +2736,6 @@ a{
         padding: 50px 0 82px;
         @media(max-width:768px){
             padding: 18px 0 32px;
-        }
-        .ahome__body-breadcrums{
-            ul{
-                display: flex;
-                li{
-                    margin-right: 10px;
-                    list-style: none;
-                    span{
-                        width: 2px;
-                        height: 16px;
-                        background-color: #000000;
-                        opacity: 0.5;
-                    }
-                    a{
-                        color: #000000;
-                        opacity: 0.5;
-                        font-size: 12px;
-                        @media(max-width:992px){
-                            font-size: 10px;
-                        }
-                    }
-                }
-            }
         }
         .ahome__body-h1{
             padding-top: 30px;
